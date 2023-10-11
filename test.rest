@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8000/auth/token/
+Content-Type: application/json
+
+{ "username": "admin", "password": "123456" }
+
+###
+
+###
+
+GET http://127.0.0.1:8000/auth/get-details/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk3NDY0Njg1LCJpYXQiOjE2OTcwMzI2ODUsImp0aSI6ImJlZWEyMTNhNDVjNzQ3YmZhODY2ODA0NjE4ZmE4M2FhIiwidXNlcl9pZCI6MX0.Yigl3URfGuAeNAgs__3PAWMob49LYHkfzbumPkOwDI0
